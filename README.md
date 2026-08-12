@@ -2,6 +2,10 @@
 
 Aplicação desenvolvida em **Delphi VCL** como parte de uma avaliação prática de desenvolvimento.
 
+## Demonstração
+
+🎥 [Assistir ao vídeo de demonstração da aplicação](https://drive.google.com/file/d/17CyIdt10nuulpqprrcb6wUxZfz95jhK6/view?usp=drive_link)
+
 ## Objetivo
 
 Simular o deslocamento de uma minhoca dentro de um buraco, considerando três parâmetros informados pelo usuário:
