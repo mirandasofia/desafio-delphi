@@ -347,7 +347,7 @@ object Form1: TForm1
       ParentBackground = False
       TabOrder = 5
       object minhoca: TShape
-        Left = 8
+        Left = 9
         Top = 404
         Width = 25
         Height = 18
