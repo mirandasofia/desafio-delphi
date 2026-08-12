@@ -327,14 +327,20 @@ object Form1: TForm1
       Left = 64
       Top = 507
       Width = 298
-      Height = 97
+      Height = 102
       BorderStyle = bsNone
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Segoe UI'
+      Font.Style = []
       Lines.Strings = (
-        '* A minhoca sobe o valor definido por Avan'#231'o cm a '
-        'cada tentativa.'
+        '* A minhoca sobe o valor definido por Avan'#231'o cm a cada '
+        'tentativa.'
         '* Se n'#227'o sair, ela escorrega, o valor definido pela Queda '
         'cm e aguarda 1 segundo.'
         '* O objetivo '#233' sair do buraco (alcan'#231'ar a Profundidade).')
+      ParentFont = False
       TabOrder = 4
     end
     object pBuraco: TPanel
