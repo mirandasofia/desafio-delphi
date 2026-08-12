@@ -347,8 +347,8 @@ object Form1: TForm1
       ParentBackground = False
       TabOrder = 5
       object minhoca: TShape
-        Left = 9
-        Top = 392
+        Left = 8
+        Top = 404
         Width = 25
         Height = 18
         Brush.Color = clFuchsia

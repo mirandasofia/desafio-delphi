@@ -54,6 +54,16 @@ type
     Label17: TLabel;
     Label18: TLabel;
 
+    procedure btRestaurarClick(Sender: TObject);
+    procedure LimpaCampos;
+    procedure TimerTimer(Sender: TObject);
+    procedure AtualizaPosicao;
+    procedure FormCreate(Sender: TObject);
+    procedure plIniciarClick(Sender: TObject);
+    procedure btPararSimulacaoClick(Sender: TObject);
+    procedure RegistrarEvento(const Mensagem: string);
+    procedure btRetomarClick(Sender: TObject);
+
   private
     { Private declarations }
     FTempo: Integer;
@@ -70,15 +80,6 @@ type
     FSimulacaoAtiva: Boolean;
     FSimulacaoPausada: Boolean;
 
-    procedure btRestaurarClick(Sender: TObject);
-    procedure LimpaCampos;
-    procedure TimerTimer(Sender: TObject);
-    procedure AtualizaPosicao;
-    procedure FormCreate(Sender: TObject);
-    procedure plIniciarClick(Sender: TObject);
-    procedure btPararSimulacaoClick(Sender: TObject);
-    procedure RegistrarEvento(const Mensagem: string);
-    procedure btRetomarClick(Sender: TObject);
   public
     { Public declarations }
   end;
